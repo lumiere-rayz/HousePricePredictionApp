@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 import pickle
 import sklearn
+from collections.abc import Mapping
 import numpy as np
 
 model = pickle.load(open('linearmodel.pkl', 'rb'))
