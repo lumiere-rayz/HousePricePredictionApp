@@ -1,6 +1,5 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, request, jsonify
 import pickle
-import sklearn
 from collections.abc import Mapping
 import numpy as np
 
